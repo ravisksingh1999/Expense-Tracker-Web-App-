@@ -1,0 +1,28 @@
+/* ✅ Notification Styles */
+.notification {
+  background: #e74c3c;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 15px;
+  animation: fadeInOut 5s ease-in-out;
+}
+
+/* ✅ Fade Effect */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
