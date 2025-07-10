@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = process.env.expense-tracker-web-app-backend_API_URL;
+const API_URL = process.env.REACT_APP_API_URL;
 
 export const register = (userData) =>
   axios.post(`${API_URL}/auth/register`, userData);
